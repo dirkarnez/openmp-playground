@@ -3,6 +3,9 @@ openmp-playground
 ### Notes
 - OpenMP is built-in in MSVC and GCC
 
+### TODOs
+- [ ] atomicity
+        - `std::atomic`
 ### Reference
 - https://stackoverflow.com/questions/6351961/specify-openmp-to-gcc
 - https://github.com/pytorch/pytorch/blob/5ed7c701a3dfa0135c621a47361e03eceb02b37f/cmake/Modules/FindOpenMP.cmake
