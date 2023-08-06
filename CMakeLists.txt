@@ -8,7 +8,7 @@ find_package(OpenMP)
 
 if(OpenMP_FOUND)
     message(STATUS "YES")
-ekse()
+else()
     message(STATUS "NO")
 endif()
 
